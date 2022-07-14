@@ -1,5 +1,5 @@
 # astar_search_maze
-Create an astar search algorithm that can find the optimal solution to a maze with one or many waypoints. 
+Created an astar search with MST heuristic that can find the optimal solution to a maze with one or many waypoints. 
 
 ### Minimum Spanning Tree
 Instead of computing the distances to each waypoint from the current position, it would be more helpful to obtain an estimate of the cost of reaching the rest of the unreached waypoints once we have reached one. 
